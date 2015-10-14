@@ -1,4 +1,4 @@
-from pathfinder.arrays.monster_array import MonsterArray
+from pathfinder.models.arrays.monster_array import MonsterArray
 
 class Combatant(MonsterArray):
    def __init__(self, cr):
