@@ -1,10 +1,9 @@
 from pathfinder.exceptions.array_exceptions import InvalidArrayTypeException
 from pathfinder.models.arrays.combatant import Combatant
 
+ARRAY_TYPES = ['combatant', 'expert', 'spellcaster']
+
 class ArrayFactory:
-
-    ARRAY_TYPES = ['combatant', 'expert', 'spellcaster']
-
     def __init__(self, cr, array_type):
         if array_type not in ARRAY_TYPES:
             raise InvalidArrayTypeException()
