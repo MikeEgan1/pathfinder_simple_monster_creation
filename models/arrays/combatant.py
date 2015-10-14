@@ -3,7 +3,7 @@ from pathfinder.models.arrays.combatant_data import combatant_data
 
 class Combatant(MonsterArray):
    def __init__(self, cr):
-       if cr < 1:
+       if not isinstance(cr, (int, long)):
            cr = 0
 
        array = combatant_data[cr]
