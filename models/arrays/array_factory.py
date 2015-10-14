@@ -11,5 +11,5 @@ class ArrayFactory:
         if array_type not in ARRAY_TYPES:
             raise InvalidArrayTypeException()
 
-        if array_type == 'combatant':
+        if array_type == 1:
             return Combatant(cr)

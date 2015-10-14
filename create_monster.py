@@ -8,7 +8,7 @@ def main():
     cr = raw_input("Enter CR of monster:")
     print cr
 
-    array_type = raw_input("Enter the array type of monster [combatant, expert, spellcaster]")
+    array_type = raw_input("Enter the array type of monster\n 1. combatant\n 2. expert\n 3. spellcaster\n")
     factory = ArrayFactory()
     array = factory.getArray(cr, array_type)
 
