@@ -1,24 +1,24 @@
 class MonsterArray:
-    def __init__(self, cr, moster_array):
+    def __init__(self, cr, monster_array):
         self.cr = cr
-        self.armor_class = moster_array['armor_class']
-        self.touch_armor_class = moster_array['touch_armor_class']
-        self.flat_footed_armor_class = moster_array['flat_footed_armor_class']
-        self.fortitude = moster_array['fortitude']
-        self.reflex = moster_array['reflex']
-        self.willpower = moster_array['willpower']
-        self.cmd = moster_array['cmd']
-        self.hit_points = moster_array['hit_points']
-        self.ability_dc = moster_array['ability_dc']
-        self.spell_dc = moster_array['spell_dc']
-        self.master_ability_mod = moster_array['master_ability_mod']
-        self.great_ability_mod = moster_array['great_ability_mod']
-        self.good_ability_mod = moster_array['good ability_mod']
-        self.master_skill = moster_array['master_skill']
-        self.master_skill_count = moster_array['master_skill_count']
-        self.good_skill = moster_array['good_skill']
-        self.good_skill_count = moster_array['good_skill_count']
-        self.options = moster_array['options']
+        self.armor_class = monster_array['armor_class']
+        self.touch_armor_class = monster_array['touch_armor_class']
+        self.flat_footed_armor_class = monster_array['flat_footed_armor_class']
+        self.fortitude = monster_array['fortitude']
+        self.reflex = monster_array['reflex']
+        self.willpower = monster_array['willpower']
+        self.cmd = monster_array['cmd']
+        self.hit_points = monster_array['hit_points']
+        self.ability_dc = monster_array['ability_dc']
+        self.spell_dc = monster_array['spell_dc']
+        self.master_ability_mod = monster_array['master_ability_mod']
+        self.great_ability_mod = monster_array['great_ability_mod']
+        self.good_ability_mod = monster_array['good ability_mod']
+        self.master_skill = monster_array['master_skill']
+        self.master_skill_count = monster_array['master_skill_count']
+        self.good_skill = monster_array['good_skill']
+        self.good_skill_count = monster_array['good_skill_count']
+        self.options = monster_array['options']
 
     def getChallengeRating(self):
         return self.cr

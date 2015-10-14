@@ -3,8 +3,9 @@ from pathfinder.models.arrays.combatant_data import combatant_data
 
 class Combatant(MonsterArray):
    def __init__(self, cr):
-       if not isinstance(cr, (int, long)):
+        if not isinstance(cr, (int, long)):
            cr = 0
-
-       super(Combatant, self).__init__(cr, combatant_data[cr])
+        import ipdb
+        ipdb.set_trace()
+        super(Combatant, self).__init__(cr, combatant_data[cr])
 
