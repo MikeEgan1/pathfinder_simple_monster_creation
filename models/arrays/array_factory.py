@@ -7,7 +7,7 @@ class array_factory:
 
     def __init__(self, cr, array_type):
         if array_type not in ARRAY_TYPES:
-            throw InvalidArrayTypeException()
+            raise InvalidArrayTypeException()
 
         if array_type == 'combatant':
             return Combatant(cr)
