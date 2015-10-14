@@ -1,5 +1,5 @@
 from pathfinder.exceptions.array_exceptions import InvalidArrayTypeException
-from pathfinder.arrays.combatant import Combatant
+from pathfinder.models.arrays.combatant import Combatant
 
 class array_factory:
 
