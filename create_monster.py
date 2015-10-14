@@ -9,7 +9,8 @@ def main():
     print cr
 
     array_type = raw_input("Enter the array type of monster [combatant, expert, spellcaster]")
-    array = ArrayFactory(cr, array_type)
+    factory = ArrayFactory()
+    array = factory.getArray(cr, array_type)
 
     monster.applyArray(array)
 
