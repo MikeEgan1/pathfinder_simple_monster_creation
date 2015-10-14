@@ -1,7 +1,7 @@
 from pathfinder.exceptions.array_exceptions import InvalidArrayTypeException
 from pathfinder.models.arrays.combatant import Combatant
 
-class array_factory:
+class ArrayFactory:
 
     ARRAY_TYPES = ['combatant', 'expert', 'spellcaster']
 
