@@ -14,6 +14,5 @@ def main():
 
     monster.applyArray(array)
 
-
 if __name__ == "__main__":
     main()
