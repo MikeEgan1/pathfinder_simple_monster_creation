@@ -1,0 +1,2 @@
+class InvalidArrayTypeException(Exception):
+    pass
