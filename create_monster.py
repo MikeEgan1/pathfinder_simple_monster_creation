@@ -1,4 +1,6 @@
 
+
+
 def main():
     cr = raw_input("Enter CR of monster:")
     print cr
