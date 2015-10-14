@@ -1,4 +1,4 @@
-from pathfinder_monster_creation.exceptions.array_expections import InvalidArrayTypeException
+from pathfinder.exceptions.array_expections import InvalidArrayTypeException
 
 class array_factory:
 
