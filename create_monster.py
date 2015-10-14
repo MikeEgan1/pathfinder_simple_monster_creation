@@ -5,6 +5,9 @@ from pathfinder.models.monster.monster import Monster
 def main():
     monster = Monster()
 
+    import ipdb
+    ipdb.set_trace()
+
     cr = raw_input("Enter CR of monster:")
     print cr
 
