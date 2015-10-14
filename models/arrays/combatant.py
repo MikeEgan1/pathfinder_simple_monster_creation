@@ -6,8 +6,5 @@ class Combatant(MonsterArray):
         if not isinstance(cr, (int, long)):
            cr = 0
 
-        import ipdb
-        ipdb.set_trace()
-
         super(Combatant, self).__init__(cr, combatant_data[cr])
 

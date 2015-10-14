@@ -1,4 +1,4 @@
-class MonsterArray:
+class MonsterArray(Object):
     def __init__(self, cr, monster_array):
         self.cr = cr
         self.armor_class = monster_array['armor_class']
