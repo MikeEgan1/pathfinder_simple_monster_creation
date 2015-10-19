@@ -26,7 +26,7 @@ def main():
 
     monster.applyArray(array)
 
-    ability_scores = get_ability_score_string()
+    ability_score_string = get_ability_score_string()
 
     high_mod = raw_input("Which Ability Modifier gets +" + str(array.getMasterAbilityMod()) + ability_score_string)
 
