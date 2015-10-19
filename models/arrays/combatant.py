@@ -8,5 +8,5 @@ class Combatant(MonsterArray):
 
         with open("json/combatant.json", "r") as file:
             combatant = json.load(file)
-            super(Combatant, self).__init__(cr, combatant[cr])
+            super(Combatant, self).__init__(cr, combatant[str(cr)])
 
