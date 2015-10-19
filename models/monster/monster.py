@@ -33,7 +33,10 @@ class Monster():
         self.setArmorClass(monster_array.getArmorClass())
         self.setTouchArmorClass(monster_array.getTouchArmorClass())
         self.setFortitude(monster_array.getFortitude())
-
+        self.setWillpower(monster_array.getWillpower())
+        self.setReflex(monster_array.getReflex())
+        self.setCMB(monster_array.getCMD())
+        self.setHitPoints(monster_array.getHitPoints())
 
     def setArmorClass(self, armor_class):
         self.armor_class = armor_class

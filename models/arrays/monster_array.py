@@ -29,75 +29,75 @@ class MonsterArray(object):
     def getTouchArmorClass(self):
         return self.touch_armor_class
     
-    def setName(self):
+    def getName(self):
         return self.name 
     
-    def setXP(self):
+    def getXP(self):
         return self.xp 
     
-    def setMonsterType(self):
+    def getMonsterType(self):
         return self.monster_type 
     
-    def setInit(self):
+    def getInit(self):
         return self.init 
     
-    def setSenses(self):
+    def getSenses(self):
         return self.senses 
     
-    def setPerception(self):
+    def getPerception(self):
         return self.perception 
     
-    def setSize(self):
+    def getSize(self):
         return self.size 
     
-    def setSpeed(self):
+    def getSpeed(self):
         return self.speed 
     
-    def setFlatFootedArmorClass(self):
+    def getFlatFootedArmorClass(self):
         return self.flat_footed_armor_class 
     
-    def setFortitude(self):
+    def getFortitude(self):
         return self.fortitude 
     
-    def setReflex(self):
+    def getReflex(self):
         return self.reflex 
     
-    def setWillpower(self):
+    def getWillpower(self):
         return self.willpower 
     
-    def setCMD(self):
+    def getCMD(self):
         return self.cmd 
     
-    def setHitPoints(self):
+    def getHitPoints(self):
         return self.hit_points 
     
-    def setMelee(self):
+    def getMelee(self):
         return self.melee 
     
-    def setRanged(self):
+    def getRanged(self):
         return self.ranged 
     
-    def setAttackOptions(self):
+    def getAttackOptions(self):
         return self.attack_options 
     
-    def setCMB(self):
+    def getCMB(self):
         return self.cmb 
     
-    def setStrngth(self):
+    def getStrngth(self):
         return self.strength 
     
-    def setDexterity(self):
+    def getDexterity(self):
         return self.dexterity 
     
-    def setConstitution(self):
+    def getConstitution(self):
         return self.constitution 
     
-    def setIntelligence(self):
+    def getIntelligence(self):
         return self.intelligence 
     
-    def setWidsome(self):
+    def getWidsome(self):
         return self.wisdom 
     
-    def setCharisma(self):
+    def getCharisma(self):
         return self.charisma 
 
