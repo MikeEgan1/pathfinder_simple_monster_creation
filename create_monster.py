@@ -14,7 +14,7 @@ def main():
 
     monster.applyArray(array)
 
-    high_mod = raw_input("Which Ability Modifier gets " + array.getMasterAbilityMod())
+    high_mod = raw_input("Which Ability Modifier gets " + str(array.getMasterAbilityMod()))
 
 
 
