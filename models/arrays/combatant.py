@@ -6,7 +6,7 @@ class Combatant(MonsterArray):
         if not isinstance(cr, (int, long)):
            cr = 0
 
-        with open("combatant.json", "r") as file:
+        with open("json/combatant.json", "r") as file:
             combatant = json.loads(file)
             super(Combatant, self).__init__(cr, combatant[cr])
 
