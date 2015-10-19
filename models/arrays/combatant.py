@@ -7,6 +7,6 @@ class Combatant(MonsterArray):
            cr = 0
 
         with open("json/combatant.json", "r") as file:
-            combatant = json.loads(file)
+            combatant = json.load(file)
             super(Combatant, self).__init__(cr, combatant[cr])
 
