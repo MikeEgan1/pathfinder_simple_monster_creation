@@ -14,11 +14,11 @@ def main():
 
     monster.applyArray(array)
 
-    high_mod = raw_input("Which Ability Modifier gets +" + str(array.getMasterAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
+    high_mod = raw_input("Which Ability Modifier gets +" + str(array.getMasterAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n 3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
 
-    great_mod = raw_input("Which Ability Modifier gets +" + str(array.getGreatAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
+    great_mod = raw_input("Which Ability Modifier gets +" + str(array.getGreatAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n 3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
 
-    good_mod = raw_input("Which Ability Modifier gets +" + str(array.getGoodAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
+    good_mod = raw_input("Which Ability Modifier gets +" + str(array.getGoodAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n 3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
 
 
     if(high_mod == 1):
