@@ -26,6 +26,12 @@ class MonsterArray(object):
     def getMasterAbilityMod(self):
         return self.master_ability_mod
 
+    def getGreatAbilityMod(self):
+        return self.good_ability_mod
+
+    def getGoodAbilityMod(self):
+        return self.good_ability_mod
+
     def getArmorClass(self):
         return self.armor_class
 
