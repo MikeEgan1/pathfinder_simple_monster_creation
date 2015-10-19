@@ -13,9 +13,65 @@
         "master_ability_mod" : 3,
         "great_ability_mod" : 2,
         "good ability_mod" : 1,
-        "master_skill" : 8,
+        "skills" : {
+          "master" : {
+            "count" : 1,
+            "modifier" : 8
+          },
+          "good" : {
+            "count" : 2,
+            "modifier" : 5
+          }
+        },
+        "options" : {
+            "combat" : 1,
+            "any" : 0,
+            "social" : 0,
+            "magic" : 0
+        },
+      "damage" : {
+        "high" : {
+          "to_hit" : 1,
+          "damage" : 5
+          },
+        "low": {
+          "to_hit" : 0,
+          "damage" : 4
+        },
+        "two" : {
+          "to_hit" : -1,
+          "damage" : 4
+        },
+        "three" : {
+          "first" : {
+            "to_hit" : -1,
+            "damage" : 6
+          },
+          "second" : {
+            "to_hit" : -6,
+            "damage" : 4
+          }
+        }
+      }
+    },
+
+    "1" : {
+        "armor_class" : 14,
+        "touch_armor_class" : 12,
+        "flat_footed_armor_class" : 12,
+        "fortitude" : 2,
+        "reflex" : 2,
+        "willpower" : 1,
+        "cmd" : 14,
+        "hit_points" : 16,
+        "ability_dc" : 10,
+        "spell_dc" : 10,
+        "master_ability_mod" : 3,
+        "great_ability_mod" : 2,
+        "good ability_mod" : 1,
+        "master_skill" : 9,
         "master_skill_count" : 1,
-        "good_skill" : 5,
+        "good_skill" : 6,
         "good_skill_count" : 2,
         "options" : {
             "combat" : 1,

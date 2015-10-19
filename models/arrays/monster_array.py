@@ -14,14 +14,17 @@ class MonsterArray(object):
         self.master_ability_mod = monster_array['master_ability_mod']
         self.great_ability_mod = monster_array['great_ability_mod']
         self.good_ability_mod = monster_array['good ability_mod']
-        self.master_skill = monster_array['master_skill']
-        self.master_skill_count = monster_array['master_skill_count']
-        self.good_skill = monster_array['good_skill']
-        self.good_skill_count = monster_array['good_skill_count']
-        self.options = monster_array['options']
+        # self.master_skill = monster_array['master_skill']
+        # self.master_skill_count = monster_array['master_skill_count']
+        # self.good_skill = monster_array['good_skill']
+        # self.good_skill_count = monster_array['good_skill_count']
+        # self.options = monster_array['options']
 
     def getChallengeRating(self):
         return self.cr
+
+    def getMasterAbilityMod(self):
+        return self.master_ability_mod
 
     def getArmorClass(self):
         return self.armor_class

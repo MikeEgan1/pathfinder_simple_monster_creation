@@ -14,5 +14,9 @@ def main():
 
     monster.applyArray(array)
 
+    high_mod = raw_input("Which Ability Modifier gets " + array.getMasterAbilityMod())
+
+
+
 if __name__ == "__main__":
     main()
