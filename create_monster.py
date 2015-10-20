@@ -14,16 +14,12 @@ def get_user_input(prompt, menu):
             menu = menu + "\n" + str(count) + ". " + option
             count = count+1
 
-        choice = raw_input(prompt + menu)
+        choice = int(raw_input(prompt + menu))
 
         if(isinstance(choice, ( int, long )) and len(menu_options)+1 > choice):
             return menu_options[choice]
         else:
             raise InvalidArrayTypeException()
-
-
-
-
 
 def main():
     monster = Monster()
