@@ -38,9 +38,9 @@ def main():
     #
     # good_mod = raw_input("Which Ability Modifier gets +" + str(array.getGoodAbilityMod()) + "\n 1. Strength\n 2. Dexterity \n 3. Constitution\n 4. Intelligence\n 5. Wisdom\n 6. Charisma")
     #
-
-    if(high_mod == 1):
-        monster.setStrngth(array.getMasterAbilityMod())
+    #
+    # if(high_mod == 1):
+    #     monster.setStrngth(array.getMasterAbilityMod())
 
 if __name__ == "__main__":
     main()
