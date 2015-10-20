@@ -1,5 +1,6 @@
 from pathfinder.models.arrays.array_factory import ArrayFactory
 from pathfinder.models.monster.monster import Monster
+from pathfinder.exceptions.array_exceptions import InvalidArrayTypeException
 import json
 
 def get_user_input(prompt, menu):
@@ -15,7 +16,13 @@ def get_user_input(prompt, menu):
 
         choice = raw_input(prompt + menu)
 
-        return menu_options.get(choice)
+        if(isinstance(choice, ( int, long )) and len(menu_options)+1 > choice):
+            return menu_options[choice]
+        else:
+            raise InvalidArrayTypeException()
+
+
+
 
 
 def main():
