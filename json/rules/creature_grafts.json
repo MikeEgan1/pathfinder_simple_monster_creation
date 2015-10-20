@@ -2,7 +2,9 @@
   "Aberation" : {
     "automatic" : {
       "senses" : {
-        "darkvision": 60
+        "darkvision": {
+          "set" : 60
+        }
       }
     },
     "statistic" : {
@@ -12,6 +14,27 @@
     },
     "elective" : {
       "spells" : "aberrant"
+    }
+  },
+
+  "Animal" : {
+    "automatic" : {
+      "senses" : {
+        "Low-light Vision" : [
+          "add"
+        ],
+        "set" : {
+          "intelligence" : -4
+        }
+      }
+    },
+    "statistic" : {
+      "fortitude" : {
+        "plus" : 2
+      },
+      "reflex" : {
+        "plus" : 2
+      }
     }
   }
 }

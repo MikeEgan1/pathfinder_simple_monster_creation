@@ -2,21 +2,8 @@ from pathfinder.models.arrays.array_factory import ArrayFactory
 from pathfinder.models.monster.monster import Monster
 import json
 
-def get_ability_score_string():
-    with open("json/ability_scores.json") as file:
-        ability_scores = json.load(file)
-
-        ability_score_string = ""
-        count = 1
-
-        for score in ability_scores:
-            ability_score_string = ability_score_string + "\n" + str(count) + ". " + score
-            count = count+1
-
-        return ability_score_string
-
 def get_user_input(prompt, menu):
-    with open("json/menus/" + menu + ".json"):
+    with open("json/menus/" + menu + ".json", "r"):
         menu_options = json.load(file)
 
         menu = ""

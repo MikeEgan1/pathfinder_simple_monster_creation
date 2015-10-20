@@ -7,7 +7,7 @@ class ArrayFactory:
         pass
 
     def getArray(self, cr, array_type):
-        with open("json/menus/array_types.json") as file:
+        with open("json/menus/array_types.json", "r") as file:
             array_types = json.load(file)
 
             if array_type not in array_types:
