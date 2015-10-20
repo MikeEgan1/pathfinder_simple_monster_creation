@@ -3,7 +3,7 @@ import json
 
 class Combatant(MonsterArray):
    def __init__(self, cr):
-        if not isinstance(cr, (int, long)):
+        if cr < 1:
            cr = 0
 
         with open("json/combatant.json", "r") as file:
