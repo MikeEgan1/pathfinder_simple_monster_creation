@@ -3,7 +3,7 @@ from pathfinder.models.monster.monster import Monster
 import json
 
 def get_user_input(prompt, menu):
-    with open("json/menus/" + menu + ".json", "r"):
+    with open("json/menus/" + menu + ".json", "r") as file:
         menu_options = json.load(file)
 
         menu = ""
