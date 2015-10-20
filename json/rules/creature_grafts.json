@@ -1,10 +1,14 @@
 {
   "Aberation" : {
     "automatic" : {
-      "darkvision" : 60
+      "senses" : {
+        "darkvision": 60
+      }
     },
     "statistic" : {
-      "willpower" : 2
+      "willpower" : {
+        "plus" : 2
+      }
     },
     "elective" : {
       "spells" : "aberrant"
