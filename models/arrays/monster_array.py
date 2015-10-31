@@ -11,9 +11,9 @@ class MonsterArray(object):
         self.hit_points = monster_array['hit_points']
         self.ability_dc = monster_array['ability_dc']
         self.spell_dc = monster_array['spell_dc']
-        self.master_ability_mod = monster_array['master_ability_mod']
-        self.great_ability_mod = monster_array['great_ability_mod']
-        self.good_ability_mod = monster_array['good ability_mod']
+        self.master_ability_mod = monster_array['ability_mods'][0]
+        self.great_ability_mod = monster_array['ability_mods'][1]
+        self.good_ability_mod = monster_array['ability_mods'][2]
         self.skills = monster_array['skills']
         self.options = monster_array['options']
 
