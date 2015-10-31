@@ -17,7 +17,7 @@ def get_user_input(prompt, menu):
         choice = int(raw_input(prompt + menu))
 
         if(isinstance(choice, ( int, long )) and len(menu_options)+1 > choice):
-            return menu_options[choice]
+            return menu_options[choice-1]
         else:
             raise InvalidArrayTypeException()
 
